@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Fortune Teller</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Fortune Teller</h2>
+      </div>
+      <form id="teller">
+        <div class="form-group">
+          <p>In the past year, which of the following apply to you:</p>
+          <input type="checkbox" name="event" value="black-cat">Seeing a black cat<br>
+          <input type="checkbox" name="event" value="ladder">Walking under a ladder<br>
+          <input type="checkbox" name="event" value="toe">Stubbing your toe<br>
+          <input type="checkbox" name="event" value="money">Finding money<br>
+          <input type="checkbox" name="event" value="mirror">Break a mirror<br>
+          <input type="checkbox" name="event" value="rainbow">Seeing a rainbow<br>
+          <input type="checkbox" name="event" value="clover">Finding a four-leaf clover<br>
+          <input type="checkbox" name="event" value="winner">Won something<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="teller-responses">
+        <p><b>You selected:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
